@@ -1,0 +1,216 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+html{
+    background:linear-gradient(89deg, #332C34 0%, #39124E 24.62%, #290E60 52.4%, #19104C 76.62%, #0E1332 99.06%) ;
+}
+
+header {
+  
+    background: linear-gradient(89deg, #332C34 0%, #39124E 24.62%, #290E60 52.4%, #19104C 76.62%, #0E1332 99.06%);
+    text-align: center;
+}
+
+#logo {
+    width: 180px;
+
+    top: 35px;
+    left: -19%;
+
+
+}
+
+.links {
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.links  a{
+    text-decoration: none;
+}
+
+.links a,
+.primeiro a {
+    color: #C9C9C9;
+
+    margin: 16px auto;
+
+    text-align: center;
+
+}
+.botao-cabecalho a{
+    text-decoration: none;
+    background-color: aliceblue;
+    width: 40px;
+    border-radius: 8px;
+    color: black;
+    padding: 4px 10px;
+
+}
+
+.primeiro {
+    width: 85%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+
+    height: 30px;
+    width: 120px;
+    /* padding: 5px; */
+    border-radius: 0px 8px 8px 0px ;
+}
+
+.botao-cabecalho {
+
+    /* width: 111px; */
+    margin: revert;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.inc {
+    background-color: aliceblue;
+    width: 30px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.opcao {
+    display: flex;
+    border-color: aliceblue;
+}
+
+.barra {
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img-central {
+    margin: 0px;
+}
+
+.pag-dois{
+     
+    background: linear-gradient(89deg, #332C34 0%, #39124E 24.62%, #290E60 52.4%, #19104C 76.62%, #0E1332 99.06%);
+}
+
+section
+
+.Séries{
+    width: 15px;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.Filmes{
+    width: 15px;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.desenho{
+    width: 15px;
+    color: aliceblue;
+    font-size: 19px;
+}
+.img-series{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+
+
+.img-filme{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.img-desenho{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+.img-series img{
+    width: 195px;
+    height: 273px;
+}
+
+.img-filme img{
+    width: 195px;
+    height: 273px;
+}
+
+.img-desenho img{
+    width: 195px;
+    height: 273px;
+}
+.terceira{
+    
+    background: linear-gradient(89deg, #332C34 0%, #39124E 24.62%, #290E60 52.4%, #19104C 76.62%, #0E1332 99.06%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.terceira h1 {
+    color: #C9C9C9;
+    font-size: 40px;
+}
+
+.avaliacao{
+    width: 80%;
+    color: aliceblue;
+    font-size: 19px;
+    font-size: 24px;
+    margin: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avaliacao p{
+    width: 70%;
+}
+
+.text{
+    width: 15px;
+    color: aliceblue;
+    font-size: 31px;
+}
+
+.footer{
+    margin-top: 50px;
+ 
+    background: linear-gradient(89deg, #332C34 0%, #39124E 24.62%, #290E60 52.4%, #19104C 76.62%, #0E1332 99.06%);
+}
+
+.footer {
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    color: #C9C9C9;
+    align-items: center;
+}
+
+.video{
+   width: 100%;
+   height: 700px;
+}
+
+
