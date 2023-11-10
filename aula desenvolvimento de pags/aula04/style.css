@@ -1,0 +1,54 @@
+/* O "*" e para zera a pagina nas estruturas */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #3823b8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section{
+    display: flex;
+     flex-direction: row;
+}
+
+.curso {
+    width: 450px;
+     margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    overflow: hidden;
+     transition: transform 0.3s;
+
+     
+}
+
+.curso:hover{
+      transform: scale(1.05);
+    
+}
+
+img{
+    width: 100%;
+}
+
+.texto-curso{
+    padding: 10px;
+    background-color:#fff ;
+}
+
+footer{
+    background-color: #1a069f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
